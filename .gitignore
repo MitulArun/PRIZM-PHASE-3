@@ -1,0 +1,34 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+**/xcuserdata/
+*.xcuserstate
+
+# Compiled audio plugins
+*.component/
+*.vst3/
+*.audiounit/
+*.app/
+*.dSYM/
+
+# Build artifacts
+**/build/
+**/Debug/
+**/Release/
+cmake-build-*/
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Archives and backups
+*.tar.gz
+*.zip
+EOF
+# JUCE generated build output
+Builds/*/build/
+Builds/*/build-*/

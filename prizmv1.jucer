@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="MpkCSX" name="prizmv1" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" version="2.0.0"
+              cppLanguageStandard="17">
+  <MAINGROUP id="NV973U" name="prizmv1">
+    <GROUP id="{40D7B5DF-2416-1C8C-32F1-7C7677F2B12C}" name="Source">
+      <GROUP id="{D13BC5B6-0000-0000-0000-8B2BD9E18F29}" name="Common">
+        <FILE id="g43CaI" name="ParamTable.cpp" compile="1" resource="0"
+              file="Source/Common/ParamTable.cpp"/>
+        <FILE id="Qigc16" name="ParamTable.h" compile="0" resource="0"
+              file="Source/Common/ParamTable.h"/>
+      </GROUP>
+      <GROUP id="{C0DC8DF6-0000-0000-0000-8B79ED124E7C}" name="DSP">
+        <FILE id="L1wnxw" name="AudioAnalyzer.cpp" compile="1" resource="0"
+              file="Source/DSP/AudioAnalyzer.cpp"/>
+        <FILE id="Jjm1jD" name="AudioAnalyzer.h" compile="0" resource="0"
+              file="Source/DSP/AudioAnalyzer.h"/>
+        <FILE id="QorIio" name="Biquad.h" compile="0" resource="0"
+              file="Source/DSP/Biquad.h"/>
+        <FILE id="0ZCcKS" name="Compressor.cpp" compile="1" resource="0"
+              file="Source/DSP/Compressor.cpp"/>
+        <FILE id="u4rRiA" name="Compressor.h" compile="0" resource="0"
+              file="Source/DSP/Compressor.h"/>
+        <FILE id="YLvIT5" name="DspCommon.h" compile="0" resource="0"
+              file="Source/DSP/DspCommon.h"/>
+        <FILE id="o6DKj1" name="FFT.h" compile="0" resource="0"
+              file="Source/DSP/FFT.h"/>
+        <FILE id="5IfUE0" name="Limiter.cpp" compile="1" resource="0"
+              file="Source/DSP/Limiter.cpp"/>
+        <FILE id="iHn6WI" name="Limiter.h" compile="0" resource="0"
+              file="Source/DSP/Limiter.h"/>
+        <FILE id="1GiXuu" name="LoudnessMeter.cpp" compile="1" resource="0"
+              file="Source/DSP/LoudnessMeter.cpp"/>
+        <FILE id="VIk8Uj" name="LoudnessMeter.h" compile="0" resource="0"
+              file="Source/DSP/LoudnessMeter.h"/>
+        <FILE id="B0uSlv" name="MasteringChain.cpp" compile="1" resource="0"
+              file="Source/DSP/MasteringChain.cpp"/>
+        <FILE id="vbK8hT" name="MasteringChain.h" compile="0" resource="0"
+              file="Source/DSP/MasteringChain.h"/>
+        <FILE id="GrjOZw" name="Oversampler.cpp" compile="1" resource="0"
+              file="Source/DSP/Oversampler.cpp"/>
+        <FILE id="WLCwMI" name="Oversampler.h" compile="0" resource="0"
+              file="Source/DSP/Oversampler.h"/>
+        <FILE id="YJuQ1z" name="ParametricEQ.cpp" compile="1" resource="0"
+              file="Source/DSP/ParametricEQ.cpp"/>
+        <FILE id="SrgfLX" name="ParametricEQ.h" compile="0" resource="0"
+              file="Source/DSP/ParametricEQ.h"/>
+        <FILE id="U1kwnp" name="Saturator.cpp" compile="1" resource="0"
+              file="Source/DSP/Saturator.cpp"/>
+        <FILE id="G5Wdtu" name="Saturator.h" compile="0" resource="0"
+              file="Source/DSP/Saturator.h"/>
+        <FILE id="vToMnn" name="StereoImager.cpp" compile="1" resource="0"
+              file="Source/DSP/StereoImager.cpp"/>
+        <FILE id="Ln6oH8" name="StereoImager.h" compile="0" resource="0"
+              file="Source/DSP/StereoImager.h"/>
+        <FILE id="p8mq9P" name="TruePeak.h" compile="0" resource="0"
+              file="Source/DSP/TruePeak.h"/>
+      </GROUP>
+      <GROUP id="{9B1363DA-0000-0000-0000-9503DBD4142C}" name="Assistant">
+        <FILE id="eWRQDc" name="ChatAssistant.cpp" compile="1" resource="0"
+              file="Source/Assistant/ChatAssistant.cpp"/>
+        <FILE id="AlkREJ" name="ChatAssistant.h" compile="0" resource="0"
+              file="Source/Assistant/ChatAssistant.h"/>
+        <FILE id="VmLaoa" name="IntentParser.cpp" compile="1" resource="0"
+              file="Source/Assistant/IntentParser.cpp"/>
+        <FILE id="fV6cBn" name="IntentParser.h" compile="0" resource="0"
+              file="Source/Assistant/IntentParser.h"/>
+        <FILE id="ucOVSy" name="MasteringAssistant.cpp" compile="1" resource="0"
+              file="Source/Assistant/MasteringAssistant.cpp"/>
+        <FILE id="MChhR4" name="MasteringAssistant.h" compile="0" resource="0"
+              file="Source/Assistant/MasteringAssistant.h"/>
+        <FILE id="9RlAKP" name="Proposal.h" compile="0" resource="0"
+              file="Source/Assistant/Proposal.h"/>
+      </GROUP>
+      <GROUP id="{7BFA3072-0000-0000-0000-1C5E726FF17E}" name="Engine">
+        <FILE id="JRNUUe" name="AnalysisWorker.cpp" compile="1" resource="0"
+              file="Source/Engine/AnalysisWorker.cpp"/>
+        <FILE id="motTek" name="AnalysisWorker.h" compile="0" resource="0"
+              file="Source/Engine/AnalysisWorker.h"/>
+        <FILE id="2P1FXm" name="AudioFifo.h" compile="0" resource="0"
+              file="Source/Engine/AudioFifo.h"/>
+        <FILE id="y0NB2g" name="ChatSession.cpp" compile="1" resource="0"
+              file="Source/Engine/ChatSession.cpp"/>
+        <FILE id="ncQ8zw" name="ChatSession.h" compile="0" resource="0"
+              file="Source/Engine/ChatSession.h"/>
+        <FILE id="ZfIS4N" name="HistoryManager.cpp" compile="1" resource="0"
+              file="Source/Engine/HistoryManager.cpp"/>
+        <FILE id="zlseTT" name="HistoryManager.h" compile="0" resource="0"
+              file="Source/Engine/HistoryManager.h"/>
+        <FILE id="E6bHqs" name="MeterData.h" compile="0" resource="0"
+              file="Source/Engine/MeterData.h"/>
+      </GROUP>
+      <GROUP id="{71FF7152-0000-0000-0000-6D15DB86EB50}" name="UI">
+        <FILE id="h7EHuB" name="ChatPanel.cpp" compile="1" resource="0"
+              file="Source/UI/ChatPanel.cpp"/>
+        <FILE id="2pBN5C" name="ChatPanel.h" compile="0" resource="0"
+              file="Source/UI/ChatPanel.h"/>
+        <FILE id="TBYK5I" name="Controls.h" compile="0" resource="0"
+              file="Source/UI/Controls.h"/>
+        <FILE id="Pc66pi" name="Meters.cpp" compile="1" resource="0"
+              file="Source/UI/Meters.cpp"/>
+        <FILE id="KS48yF" name="Meters.h" compile="0" resource="0"
+              file="Source/UI/Meters.h"/>
+        <FILE id="djAMMf" name="ModuleRack.cpp" compile="1" resource="0"
+              file="Source/UI/ModuleRack.cpp"/>
+        <FILE id="QkEGDz" name="ModuleRack.h" compile="0" resource="0"
+              file="Source/UI/ModuleRack.h"/>
+        <FILE id="2xNQgt" name="PrizmLookAndFeel.cpp" compile="1" resource="0"
+              file="Source/UI/PrizmLookAndFeel.cpp"/>
+        <FILE id="4MkVME" name="PrizmLookAndFeel.h" compile="0" resource="0"
+              file="Source/UI/PrizmLookAndFeel.h"/>
+        <FILE id="AmLiX9" name="ReferencePanel.cpp" compile="1" resource="0"
+              file="Source/UI/ReferencePanel.cpp"/>
+        <FILE id="0mfNef" name="ReferencePanel.h" compile="0" resource="0"
+              file="Source/UI/ReferencePanel.h"/>
+        <FILE id="GEoANL" name="SpectrumDisplay.cpp" compile="1" resource="0"
+              file="Source/UI/SpectrumDisplay.cpp"/>
+        <FILE id="qTUuMN" name="SpectrumDisplay.h" compile="0" resource="0"
+              file="Source/UI/SpectrumDisplay.h"/>
+      </GROUP>
+      <FILE id="L3QiDv" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="N0VWmA" name="PluginEditor.h" compile="0" resource="0"
+            file="Source/PluginEditor.h"/>
+      <FILE id="Pw67Xu" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jZDjCz" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_USE_MP3AUDIOFORMAT="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="prizmv1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="prizmv1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-8.0.12-linux/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="prizmv1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="prizmv1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-8.0.12-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-8.0.12-linux/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
